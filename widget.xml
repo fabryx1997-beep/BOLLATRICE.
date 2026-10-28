@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="8dp" android:background="#17345C"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView android:id="@+id/widget_status" android:text="La mia bollatrice" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="14sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingBottom="6dp"/>
+ <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+  <Button android:id="@+id/w_start" android:text="Inizio" android:textSize="11sp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:padding="2dp"/>
+  <Button android:id="@+id/w_pause" android:text="Pausa" android:textSize="11sp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:padding="2dp"/>
+  <Button android:id="@+id/w_trip" android:text="Viaggio" android:textSize="11sp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:padding="2dp"/>
+  <Button android:id="@+id/w_end" android:text="Fine" android:textSize="11sp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:padding="2dp"/>
+ </LinearLayout>
+</LinearLayout>
